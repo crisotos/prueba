@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Validacion</title>
+	<link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+	<div id="marco">
+		<h1 id="valor">Costo base --> $ 5.000.000</h1>
+		<h2 id="mensaje">Seleccione el Proyecto a contratar</h2>
+		<div id="options">
+			<input type="radio" name="proyecto" id="proy1"/>
+			<label>E-Commerce (+40%)</label><br />
+			<input type="radio" name="proyecto" id="proy2"/>
+			<label>Diseño Web (+15%)</label><br />
+			<input type="radio" name="proyecto" id="proy3"/>
+			<label>Bases de datos (+20%)</label><br />
+			<input type="radio" name="proyecto" id="proy4"/>
+			<label>Software (+25%)</label><br />
+		</div>
+		<button type="button" id="boton" onclick="seleccion()">Seleccione Proyecto</button><br />
+		<label id="pagar">Valor Total a Pagar --></label> 
+		<input type="text" id="vp"/><br /><br />
+	</div>
+	<script type="text/javascript" src="validar.js"></script>
+</body>
+</html>

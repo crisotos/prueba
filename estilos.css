@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#marco {
+	width: 600px;
+	margin: 10px auto;
+	border: 2px solid red;
+	text-align: center;
+}
+
+#mensaje {
+	margin-bottom: 20px;
+}
+
+#options {
+	font: 25px Tahoma;
+	/*border: 2px solid blue;*/
+	margin-bottom: 20px;
+}
+
+#boton {
+	padding: 10px;
+	background: aqua;
+	font: 20px Tahoma;
+	margin-bottom: 20px;
+}
+
+#pagar {
+	font: 25px Tahoma;
+}
+
+#vp {
+	width: 200px;
+	font: bold 25px Tahoma;
+	/*weigth: 700;*/
+	color: Blue;
+	text-align: center;
+}
